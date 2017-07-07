@@ -6,10 +6,10 @@
 carpentry: "swc"
 
 # Overall title for pages.
-title: "Workshop Title"
+title: "Introduction to Linux and Python"
 
 # Contact email address.
-email: lessons@software-carpentry.org
+email: conrad.leonard@qimrberghofer.edu.au
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
