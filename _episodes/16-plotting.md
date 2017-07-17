@@ -23,6 +23,15 @@ import matplotlib.pyplot as plt
 ~~~
 {: .python}
 
+*   If you're using `ipython` and want to see plots appear as you create them you can use the 'magic' command:
+
+~~~
+%matplotlib tk
+~~~
+{: .python}
+
+*   Otherwise you'll need to use `plt.show()` after creating each plot.
+
 *   Simple plots are then (fairly) simple to create.
 
 ~~~

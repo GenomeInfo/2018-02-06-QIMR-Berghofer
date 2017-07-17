@@ -55,7 +55,8 @@ keypoints:
 
 *   Type `idle my_script.py` to invoke IDLE in edit mode.
 *   This will start IDLE as an editor, with `my_script.py` as the open file.
-*   Paste the same three commands into the editor, then File -> Save (or Ctrl+S)
+*   Paste the same three commands into the editor.
+*   In the File menu, select `Save` (or Ctrl+S)
 *   In the Run menu, select `Run Module` (or F5)
 
 [ipython]: https://ipython.org/
