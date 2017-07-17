@@ -17,10 +17,8 @@ keypoints:
 ## `matplotlib` is the most widely used scientific plotting library in Python.
 
 *   Commonly use a sub-library called `matplotlib.pyplot`.
-*   The Jupyter Notebook will render plots inline if we ask it to using a "magic" command.
 
 ~~~
-%matplotlib inline
 import matplotlib.pyplot as plt
 ~~~
 {: .python}

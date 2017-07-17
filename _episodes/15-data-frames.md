@@ -221,8 +221,8 @@ max      13450.401510    16361.876470    18965.055510
 
 > ## Selection of Individual Values
 >
-> Assume Pandas has been imported into your notebook
-> and the Gapminder GDP data for Europe has been loaded:
+> Assume Pandas has been imported and the Gapminder GDP
+> data for Europe has been loaded:
 >
 > ~~~
 > import pandas

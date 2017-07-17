@@ -26,8 +26,6 @@ turn out to be anything but when we have to explain them precisely.
 *   [SciPy](scipy.org) is a rich collection of scientific utilities.
     It is also the name of [a series of annual conferences](https://conference.scipy.org/).
 
-*   [Jupyter](jupyter.org) is the home of the Jupyter Notebook.
-
 *   [Pandas](pandas.pydata.org) is the home of the Pandas data library.
 
 *   Stack Overflow's [general Python section](http://stackoverflow.com/questions/tagged/python)
