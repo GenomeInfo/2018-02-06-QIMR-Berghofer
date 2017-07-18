@@ -41,6 +41,35 @@ Several commands are frequently used to create, inspect, rename, and delete file
 To start exploring them,
 let's open a shell window:
 
+> ## Logging in
+>
+> Rather than do the lessons on your own laptop, we're going to log in to the
+> HPC environment and establish a shell on on of our execution nodes.
+{: .callout}
+
+Using your ssh client, connect to `hpcpbs01.adqimr.ad.lan` as your QIMRBerghofer
+user.  Depending on your laptop type, you'll do this using PuTTY, or with ssh.
+
+Windows users will want to ensure XMing is running, then start up PuTTY.  Next,
+enable X11 forwarding.  What this means is that any commands you run in your
+remote session should display on your local system.
+
+![PuTTY X11 forwarding](../fig/PuTTY_X11.png)
+
+Then, log on to out HPC system.
+
+![PuTTY logon screen](../PuTTYLogon.png)
+
+Mac users will want to ensure XQuartz is running.
+
+Mac and Linux users will now log in using `ssh`, the OpenSSH client.
+
+~~~
+$ ssh -X scottW@hpcpbs01.adqimr.ad.lan
+~~~
+{: .bash}
+
+
 > ## Preparation Magic
 >
 > If you type the command:
@@ -148,7 +177,8 @@ $ pwd
 > The home directory path will look different on different operating systems.
 > On Linux it may look like `/home/nelle`,
 > and on Windows it will be similar to `C:\Documents and Settings\nelle` or
-> `C:\Users\nelle`.  
+> `C:\Users\nelle`.  In our HPC environment, nelle's home folder would be
+> `/mnt/lustre/home/nell`, as our home folders reside in `/mnt/lustre/home`
 > (Note that it may look slightly different for different versions of Windows.)
 > In future examples, we've used Mac output as the default - Linux and Windows
 > output may differ slightly, but should be generally similar.  
