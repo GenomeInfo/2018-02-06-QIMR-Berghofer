@@ -12,9 +12,10 @@ objectives:
 keypoints:
 - "`python`, `ipython` and `idle` commands all give an interactive Python shell (REPL)."
 - "Python programs are plain text files."
-- "You can use IDLE for creating and editing Python programs."
+- "You can use IDLE for creating and running Python programs."
 ---
 ## Setup
+
 *   Obtain an interactive session on the HPC cluster:
     ~~~
     qsub -X -I -q workshop -l walltime=8:00:00 -l ncpus=1 -l mem=1G
@@ -28,7 +29,7 @@ keypoints:
     
 ### With vanilla Python shell
 *   Type `python` to invoke the Python shell. This is also known as a "Read-Evaluate-Print Loop" or REPL.
-*   Try the following commands:
+*   Type the following statements:
     ~~~ 
     print("hi there!")
     2 + 2
@@ -37,12 +38,16 @@ keypoints:
     {: .python}
 
 ### With enhanced IPython shell
+
 *   Type `ipython` to invoke IPython, an ''enhanced'' interactive shell.
-*   Repeat the commands above.
+*   Repeat the statements above.
+*   `ipython` interprets Python statements exactly the same way as the `python` REPL.
+*   It has some additional useful features, like code completion, syntax highlighting, and "magic" commands that begin with the '%' character — type `%magic` to see a list of them.
 
 ### With IDLE
+
 *   Type `idle` to invoke the Python Integrated Development and Learning Environment in interactive (shell) mode.
-*   Repeat the commands above.
+*   Repeat the statements above.
 
 ## Python programs are plain text files.
 
