@@ -97,17 +97,32 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   Modify the block below if there are any special requirements.
 -->
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
-  on. They are also required to abide by
-  {% if page.carpentry == "swc" %}
-  Software Carpentry's
-  {% elsif page.carpentry == "dc" %}
-  Data Carpentry's
-  {% elsif page.carpentry == "lc" %}
-  Library Carpentry's
-  {% endif %}
-  <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
+  <strong>Requirements:</strong>
+  <ul>
+    <li>Participants must bring a laptop with a
+      Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.)
+      They are also required to abide by
+      {% if page.carpentry == "swc" %}
+      Software Carpentry's
+      {% elsif page.carpentry == "dc" %}
+      Data Carpentry's
+      {% elsif page.carpentry == "lc" %}
+      Library Carpentry's
+      {% endif %}
+    <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
+    </li>
+    <li>
+      An account on the Institute's HPC environment.
+    </li>
+    <li>
+    If using the QIMR-Guest or eduroam wireless networks, users must contact ITS to ensure they have working access to the QIMR VPN.
+    </li> 
+    <li>
+      An ssh client to connect to the HPC.  On Linux and Mac, this is likely in the base install.  Windows users may need to submit a ticket to <a href='https://staff.qimr.edu.au/form/itjob'>ITS</a> requesting a copy of PuTTY be installed.
+    <li>
+      A X-Server on their laptop.  For Linux laptops, this will likely already be installed.  Windows users may need to submit a ticket to <a href='https://staff.qimr.edu.au/form/itjob'>ITS</a> requesting a copy of XMing be installed.  Mac users may need to submit a ticket to <a href='https://staff.qimr.edu.au/form/itjob'>ITS</a> requesting a copy of XQuartz be installed.
+    </li>  
+  </ul>
 </p>
 
 <!--
