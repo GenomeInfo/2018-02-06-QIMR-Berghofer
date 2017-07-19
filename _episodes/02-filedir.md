@@ -58,7 +58,7 @@ remote session should display on your local system.
 
 Then, log on to out HPC system.
 
-![PuTTY logon screen](../PuTTYLogon.png)
+![PuTTY logon screen](../fig/PuTTYLogon.png)
 
 Mac users will want to ensure XQuartz is running.
 
