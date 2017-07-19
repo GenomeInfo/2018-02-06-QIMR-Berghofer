@@ -77,10 +77,6 @@ $ ssh -X scottW@hpcpbs01.adqimr.ad.lan
     ~~~
     qsub -X -I -q training -l walltime=8:00:00 -l ncpus=1 -l mem=1G
     ~~~
-*   Once you're in, load the latest Python 3 environment:
-    ~~~
-    module load python/3.6.1
-    ~~~
 
 > ## Preparation Magic
 >
