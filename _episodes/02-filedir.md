@@ -186,7 +186,7 @@ $ pwd
 > On Linux it may look like `/home/nelle`,
 > and on Windows it will be similar to `C:\Documents and Settings\nelle` or
 > `C:\Users\nelle`.  In our HPC environment, nelle's home folder would be
-> `/mnt/lustre/home/nell`, as our home folders reside in `/mnt/lustre/home`
+> `/mnt/lustre/home/nelle`, as our home folders reside in `/mnt/lustre/home`
 > (Note that it may look slightly different for different versions of Windows.)
 > In future examples, we've used Mac output as the default - Linux and Windows
 > output may differ slightly, but should be generally similar.  
