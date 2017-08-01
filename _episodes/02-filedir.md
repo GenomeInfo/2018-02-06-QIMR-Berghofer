@@ -1,6 +1,6 @@
 ---
 title: "Navigating Files and Directories"
-teaching: 15
+teaching: 40
 exercises: 0
 questions:
 - "How can I move around on my computer?"
@@ -186,7 +186,7 @@ $ pwd
 > On Linux it may look like `/home/nelle`,
 > and on Windows it will be similar to `C:\Documents and Settings\nelle` or
 > `C:\Users\nelle`.  In our HPC environment, nelle's home folder would be
-> `/mnt/lustre/home/nell`, as our home folders reside in `/mnt/lustre/home`
+> `/mnt/lustre/home/nelle`, as our home folders reside in `/mnt/lustre/home`
 > (Note that it may look slightly different for different versions of Windows.)
 > In future examples, we've used Mac output as the default - Linux and Windows
 > output may differ slightly, but should be generally similar.  
@@ -428,21 +428,6 @@ For more information on how to use `ls` we can type `man ls`.
 `man` is the Unix "manual" command:
 it prints a description of a command and its options,
 and (if you're lucky) provides a few examples of how to use it.
-
-> ## `man` and Git for Windows
->
-> The bash shell provided by Git for Windows does not
-> support the `man` command. Doing a web search for
-> `unix man page COMMAND` (e.g. `unix man page grep`)
-> provides links to numerous copies of the Unix manual
-> pages online.
-> For example, GNU provides links to its
-> [manuals](http://www.gnu.org/manual/manual.html):
-> these include [grep](http://www.gnu.org/software/grep/manual/),
-> and the
-> [core GNU utilities](http://www.gnu.org/software/coreutils/manual/coreutils.html),
-> which covers many commands introduced within this lesson.
-{: .callout}
 
 To navigate through the `man` pages,
 you may use the up and down arrow keys to move line-by-line,
