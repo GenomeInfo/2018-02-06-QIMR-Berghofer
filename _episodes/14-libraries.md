@@ -26,6 +26,7 @@ keypoints:
     with Python itself.
 *   Many additional libraries are available from [PyPI][pypi] (the Python Package Index).
 *   We will see later how to write new libraries.
+*   https://imgs.xkcd.com/comics/python.png
 
 > ## Libraries and modules
 >
