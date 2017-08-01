@@ -65,7 +65,7 @@ Mac users will want to ensure XQuartz is running.
 Mac and Linux users will now log in using `ssh`, the OpenSSH client.
 
 ~~~
-$ ssh -X scottW@hpcpbs01.adqimr.ad.lan
+$ ssh -Y scottW@hpcpbs01.adqimr.ad.lan
 ~~~
 {: .bash}
 
