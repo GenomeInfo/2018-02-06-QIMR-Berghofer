@@ -142,7 +142,7 @@ TypeError: object of type 'int' has no len()
 *   Cannot add numbers and strings.
 
 ~~~
-print(1 + 'A')
+print(1 + '2')
 ~~~
 {: .python}
 ~~~
