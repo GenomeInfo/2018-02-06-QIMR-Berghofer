@@ -53,7 +53,7 @@ def average(values):
 
     if len(values) == 0:
         return None
-    return sum(values) / average(values)
+    return sum(values) / len(values)
 
 help(average)
 ~~~
